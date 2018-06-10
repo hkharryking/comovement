@@ -14,7 +14,7 @@ class Data_util:
         self.window = window
         self.feature_num = feature_num
         self.compare_data = None
-        self.security_table = pd.read_csv('/home/wangyue/data/securities.csv')
+        self.security_table = pd.read_csv('/data/securities.csv')
 
     def get_dyadic_size(self):
         if self.compare_data is not None:
