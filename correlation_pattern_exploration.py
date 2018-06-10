@@ -23,8 +23,8 @@ D = 16
 EPOCH_NUM = 20         # Iteration times for training dat
 TICKER_NUM = 50     # S&P500  maximum in data set for 470 tickers for 400 more will be the cudnn bug on batchnorm1d
 YEAR_SEED = 0 # train_period = 2010+seed-1-1 to 2010+seed-12-31; test_period = 2011+seed-1-1 to 2011+seed-6-30
-DATA_PATH = "/home/wangyue/data/kaggle/prices-split-adjusted.csv"
-SPY_PATH = '/home/wangyue/data/SPY20000101_20171111.csv'
+DATA_PATH = "/data/kaggle/prices-split-adjusted.csv"
+SPY_PATH = '/data/SPY20000101_20171111.csv'
 BATCH_SIZE = 128
 ATTENTION_LIST = ['BLCNN']#, SELF 'LCNN','BLCNNS','WCC','SWC']#,'LCNN','BLCNNS','WCC','SWC']
 LABEL_METHOD = 2 #1: (lable1) same or different sectors; 2: (label2) sector combinations
